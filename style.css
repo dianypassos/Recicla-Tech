@@ -45,4 +45,33 @@ header nav button {
 header nav button:hover {
   cursor: pointer;
   background-color: #21C05C;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2%;
+  height: 70vh;
+}
+.first-section .text-content {
+  width: 45vw;
+}
+.first-section .text-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 4.5rem;
+  color: #1F2937;
+  margin-bottom: 4%;
+}
+.first-section .text-content h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #4B5563;
+  margin-bottom: 5%;
+}
+.first-section img {
+  width: 30%;
 }/*# sourceMappingURL=style.css.map */

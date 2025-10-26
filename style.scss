@@ -51,3 +51,36 @@ header{
         }
     }
 }
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2%;
+    height: 70vh;
+
+    .text-content{
+        width: 45vw;
+
+        h1{
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-style: bold;
+            font-size: 4.5rem;
+            color: #1F2937;
+            margin-bottom: 4%;
+        }
+
+        h4{
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: #4B5563;
+            margin-bottom: 5%;
+        }
+    }
+
+    img{
+        width: 30%;
+    }
+}
