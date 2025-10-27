@@ -198,6 +198,7 @@ header{
     align-items: stretch;
     padding: 1% 5%;
     gap: 2%;
+    margin-bottom: 6%;
 
     .container{
         flex: 1;
@@ -294,4 +295,112 @@ header{
             }
         }
     }
+}
+
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F5F8; 
+    padding: 2% 5%;
+    margin-bottom: 2%;
+
+    .fifth-section_header{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+
+        h2{
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: #1F2937;
+            margin-bottom: 1%;
+        }
+
+        h3{
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 1.6rem;
+            color: #4B5563;
+        }
+    }
+
+    .container_products{
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-wrap: wrap;
+
+        .card_products{
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            border: 2px solid #16A34A;
+            flex: 1;
+            max-width: 20%;
+
+            img{
+                width: 100%;
+                border-top-left-radius: 2%;
+                border-top-right-radius: 2%;
+            }
+
+            .card_text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10% 15%;
+
+                h4{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 400;
+                    font-size: 1.2rem;
+                    color: #1F2937;
+                    margin-bottom: 0.5rem;
+                }
+
+                p{
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color: #4B5563;
+                    margin-bottom: 8%;
+                    width: 15vw;
+                }
+
+                button{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    border-radius: 6px;
+                    background-color: #16A34A;
+                    color: #FFFFFF;
+                    border: none;
+                    padding: 5% 15%;
+
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #21C05C;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.titulo_quinta_sessao{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #1F2937;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.subtitulo_quinta_sessao{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #4B5563;
+    margin-bottom: 4%;
+    text-align: center;
 }
