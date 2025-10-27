@@ -51,6 +51,21 @@ header nav button:hover {
   cursor: pointer;
   background-color: #21C05C;
 }
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+  header nav {
+    flex-direction: column;
+    width: auto;
+    gap: 2%;
+  }
+  header nav ul {
+    width: auto;
+    gap: 4%;
+  }
+}
 
 .first-section {
   display: flex;
@@ -128,6 +143,26 @@ header nav button:hover {
 .first-section img {
   width: 30%;
 }
+@media only screen and (max-width: 600px) {
+  .first-section {
+    flex-direction: column;
+    height: auto;
+    gap: 4%;
+  }
+  .first-section .text-content {
+    width: auto;
+    text-align: center;
+  }
+  .first-section .text-content h1 {
+    font-size: 3rem;
+  }
+  .first-section .text-content .buttons {
+    justify-content: center;
+  }
+  .first-section img {
+    width: 50%;
+  }
+}
 
 .second-section {
   background-color: #F3F5F8;
@@ -154,6 +189,15 @@ header nav button:hover {
   font-size: 1rem;
   color: #4B5563;
 }
+@media only screen and (max-width: 600px) {
+  .second-section {
+    flex-direction: column;
+    gap: 4%;
+  }
+  .second-section .second-section_text h4 {
+    font-size: 2.5rem;
+  }
+}
 
 .third-section {
   display: flex;
@@ -173,6 +217,14 @@ header nav button:hover {
   font-size: 1.6rem;
   color: #1F2937;
   margin-bottom: 1%;
+}
+@media only screen and (max-width: 600px) {
+  .third-section h2 {
+    font-size: 2rem;
+  }
+  .third-section p {
+    font-size: 1.2rem;
+  }
 }
 
 .fourth-section {
@@ -267,6 +319,15 @@ header nav button:hover {
   font-size: 1rem;
   color: #4B5563;
 }
+@media only screen and (max-width: 600px) {
+  .fourth-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth-section .container {
+    max-width: 80%;
+  }
+}
 
 .fifth-section {
   display: flex;
@@ -346,6 +407,19 @@ header nav button:hover {
   cursor: pointer;
   background-color: #21C05C;
 }
+@media only screen and (max-width: 600px) {
+  .fifth-section .container_products {
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+  }
+  .fifth-section .container_products .card_products {
+    max-width: 80%;
+  }
+  .fifth-section .container_products .card_products .card_text p {
+    width: auto;
+  }
+}
 
 .titulo_quinta_sessao {
   font-family: "Poppins", sans-serif;
@@ -355,6 +429,11 @@ header nav button:hover {
   margin-bottom: 1%;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  .titulo_quinta_sessao {
+    font-size: 2rem;
+  }
+}
 
 .subtitulo_quinta_sessao {
   font-family: "Inter", sans-serif;
@@ -363,6 +442,11 @@ header nav button:hover {
   color: #4B5563;
   margin-bottom: 4%;
   text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .subtitulo_quinta_sessao {
+    font-size: 1.2rem;
+  }
 }
 
 .sixth-section {
@@ -418,6 +502,16 @@ header nav button:hover {
   font-weight: 400;
   font-size: 0.875rem;
   color: #6B7280;
+}
+@media only screen and (max-width: 600px) {
+  .sixth-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+  }
+  .sixth-section .sixth-section_card {
+    max-width: 80%;
+  }
 }
 
 .seventh-section {
@@ -480,6 +574,29 @@ header nav button:hover {
   cursor: pointer;
   transform: translateY(-4px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 600px) {
+  .seventh-section {
+    height: auto;
+    padding: 4% 2%;
+  }
+  .seventh-section h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .seventh-section h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .seventh-section .seventh-button {
+    width: auto;
+    flex-direction: column;
+    gap: 4%;
+  }
+  .seventh-section .seventh-button .seventh-button_p, .seventh-section .seventh-button .seventh-button_q {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .octave-section {
@@ -583,6 +700,27 @@ header nav button:hover {
 .octave-section .octave-section_4 .icons-social-media a img {
   width: 100%;
 }
+@media only screen and (max-width: 600px) {
+  .octave-section {
+    flex-direction: column;
+    height: auto;
+    gap: 4%;
+  }
+  .octave-section .octave-section_1, .octave-section .octave-section_2, .octave-section .octave-section_3, .octave-section .octave-section_4 {
+    align-items: center;
+    text-align: center;
+  }
+  .octave-section .octave-section_1 img, .octave-section .octave-section_2 img, .octave-section .octave-section_3 img, .octave-section .octave-section_4 img {
+    width: 70%;
+    margin-bottom: 4%;
+  }
+  .octave-section .octave-section_1 .octave-section_text, .octave-section .octave-section_1 .octave-section_text_1, .octave-section .octave-section_1 p, .octave-section .octave-section_1 h2, .octave-section .octave-section_1 h3, .octave-section .octave-section_2 .octave-section_text, .octave-section .octave-section_2 .octave-section_text_1, .octave-section .octave-section_2 p, .octave-section .octave-section_2 h2, .octave-section .octave-section_2 h3, .octave-section .octave-section_3 .octave-section_text, .octave-section .octave-section_3 .octave-section_text_1, .octave-section .octave-section_3 p, .octave-section .octave-section_3 h2, .octave-section .octave-section_3 h3, .octave-section .octave-section_4 .octave-section_text, .octave-section .octave-section_4 .octave-section_text_1, .octave-section .octave-section_4 p, .octave-section .octave-section_4 h2, .octave-section .octave-section_4 h3 {
+    width: auto;
+  }
+  .octave-section .octave-section_1 ul, .octave-section .octave-section_2 ul, .octave-section .octave-section_3 ul, .octave-section .octave-section_4 ul {
+    align-items: center;
+  }
+}
 
 .footer {
   background-color: #1F2937;
@@ -595,4 +733,11 @@ header nav button:hover {
   font-weight: 400;
   font-size: 1rem;
   line-height: 10vh;
+}
+@media only screen and (max-width: 600px) {
+  .footer p {
+    font-size: 0.875rem;
+    line-height: normal;
+    padding: 4% 2%;
+  }
 }/*# sourceMappingURL=style.css.map */

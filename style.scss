@@ -56,6 +56,22 @@ header{
             }
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        height: auto;
+
+        nav{
+            flex-direction: column;
+            width: auto;
+            gap: 2%;
+
+            ul{
+                width: auto;
+                gap: 4%;
+            }
+        }
+    }
 }
 
 .first-section{
@@ -145,6 +161,29 @@ header{
     img{
         width: 30%;
     }
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        height: auto;
+        gap: 4%;
+
+        .text-content{
+            width: auto;
+            text-align: center;
+
+            h1{
+                font-size: 3rem;
+            }
+
+            .buttons{
+                justify-content: center;
+            }
+        }
+
+        img{
+            width: 50%;
+        }
+    }
 }
 
 .second-section{
@@ -174,6 +213,17 @@ header{
             color: #4B5563;
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        gap: 4%;
+
+        .second-section_text{
+            h4{
+                font-size: 2.5rem;
+            }
+        }
+    }
 }
 
 .third-section{
@@ -195,6 +245,16 @@ header{
         font-size: 1.6rem;
         color: #1F2937;
         margin-bottom: 1%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        h2{
+            font-size: 2rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
     }
 }
 
@@ -301,6 +361,15 @@ header{
             }
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+
+        .container{
+            max-width: 80%;
+        }
+    }
 }
 
 .fifth-section{
@@ -391,6 +460,24 @@ header{
             }
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        .container_products{
+            flex-direction: column;
+            align-items: center;
+            gap: 4%;
+
+            .card_products{
+                max-width: 80%;
+
+                .card_text{
+                    p{
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .titulo_quinta_sessao{
@@ -400,6 +487,10 @@ header{
     color: #1F2937;
     margin-bottom: 1%;
     text-align: center;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+    }
 }
 
 .subtitulo_quinta_sessao{
@@ -409,6 +500,10 @@ header{
     color: #4B5563;
     margin-bottom: 4%;
     text-align: center;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 1.2rem;
+    }
 }
 
 .sixth-section{
@@ -470,6 +565,16 @@ header{
                     color: #6B7280;
                 }
             }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 4%;
+
+        .sixth-section_card{
+            max-width: 80%;
         }
     }
 }
@@ -538,6 +643,32 @@ header{
                 cursor: pointer;
                 transform: translateY(-4px);
                 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        height: auto;
+        padding: 4% 2%;
+
+        h2{
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        h3{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        .seventh-button{
+            width: auto;
+            flex-direction: column;
+            gap: 4%;
+
+            .seventh-button_p, .seventh-button_q{
+                width: 100%;
+                text-align: center;
             }
         }
     }
@@ -661,6 +792,30 @@ header{
             }
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        height: auto;
+        gap: 4%;
+
+        .octave-section_1, .octave-section_2, .octave-section_3, .octave-section_4{
+            align-items: center;
+            text-align: center;
+
+            img{
+                width: 70%;
+                margin-bottom: 4%;
+            }
+
+            .octave-section_text, .octave-section_text_1, p, h2, h3{
+                width: auto;
+            }
+
+            ul{
+                align-items: center;
+            }
+        }
+    }
 }
 
 .footer{
@@ -674,5 +829,13 @@ header{
         font-weight: 400;
         font-size: 1rem;
         line-height: 10vh;
+    }
+
+    @media only screen and (max-width: 600px){
+        p{
+            font-size: 0.875rem;
+            line-height: normal;
+            padding: 4% 2%;
+        }
     }
 }
