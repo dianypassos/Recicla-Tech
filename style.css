@@ -173,11 +173,13 @@ header nav button:hover {
 .fourth-section {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   padding: 1% 5%;
   gap: 2%;
 }
 .fourth-section .container {
+  flex: 1;
+  max-width: 32%;
   display: flex;
   flex-direction: column;
   background-color: #F3F5F8;
